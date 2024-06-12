@@ -1,0 +1,16 @@
+NextJS Learn
+
+With fonts, layout shift happens when the browser initially 
+renders text in a fallback or system font and then swaps it out for a
+custom font once it has loaded. This swap can cause the text size, 
+spacing, or layout to change, shifting elements around it.
+
+
+Next.js automatically optimizes fonts in the application when you use the
+next/font module. It downloads font files at build time and hosts them 
+with your other static assets. This means when a user visits your application, 
+there are no additional network requests for fonts which would impact performance.
+
+
+Images without dimensions and web fonts are common causes of 
+layout shift due to the browser having to download additional resources.
